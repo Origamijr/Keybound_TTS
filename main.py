@@ -14,10 +14,11 @@ with open("keybinds.tsv") as fd:
         text = row[1]
         filename = "text_" + key
         keybinds.append((key,filename + ".aif"))
+        print("Loading %s... [%s]" % (key, text))
 
         output = gTTS(text=text, lang=language, slow=False)
         output.save(filename + ".mp3")
-
+        
         os.system("ffmpeg -hide_banner -loglevel panic -y -i %s.mp3 %s.aif" % (filename, filename))
         os.remove(filename + ".mp3")
 

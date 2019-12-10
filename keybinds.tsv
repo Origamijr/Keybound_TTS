@@ -1,4 +1,5 @@
-a	Hello
-s	You
-d	Suck
-f	Goodbye
+q	"Hello. Welcome to my project, ""Masked Reality"". I thought it would be a good idea to add commentary, but I don't like listening to the sound of my own voice. As such, I will be using text to speech to explain what's going on."
+w	"As you can see, I have some masks floating by this pedastal. At first they seem pretty normal, but something interesting happens when you look through the masks."
+e	Amazing! I'm underwater!
+r	"And now I'm not. This effect is created by a stencil shader, which assigns numbers to each object . Looking through the masks filters out what numbered objects are being displayed. So in reality everything exists in this one scene, but they are invisible until you put on the right mask. Let's see where the other masks bring us."
+t	I built in a small puzzle in order to increase playtime. I will be walking through that puzzle in this video. Spoiler warning. We'll start by putting on the gas mask to revisit the ruined city.
